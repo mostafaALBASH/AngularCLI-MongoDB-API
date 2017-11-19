@@ -8,5 +8,5 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 Run `mongod` in the command prompt
 
-Run `ng run build` for a dev server. Navigate to `http://localhost:3000/`.
+Run `npm run build` for a dev server. Navigate to `http://localhost:3000/`.
 
