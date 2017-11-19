@@ -1,0 +1,35 @@
+<h1>
+  {{title}}
+</h1>
+<h2>hello world from app component test watch 05/07/2017</h2>
+<div class="container">
+  <div class="row" *ngFor="let post of posts">
+    <div class="card card-block">
+      <h4 class="card-title">{{ post.title }}</h4>
+      <p class="card-text">{{post.body}}</p>
+      <a href="#" class="card-link">Card link</a>
+      <a href="#" class="card-link">Another link</a>
+    </div>
+  </div>
+</div>
+
+<button md-button>
+<md-icon>menu</md-icon>MENU
+</button>
+<div class="example-container">
+  <h3>Normal Buttons</h3>
+  <div class="button-row">
+    <button md-button>Flat button</button>
+    <button md-raised-button>Raised button</button>
+    <button md-fab><md-icon>check</md-icon></button>
+    <button md-mini-fab><md-icon>check</md-icon></button>
+  </div>
+
+  <h3>Link Buttons</h3>
+  <div class="example-button-row">
+    <a md-button routerLink=".">Flat button</a>
+    <a md-raised-button routerLink=".">Raised button</a>
+    <a md-fab routerLink="."><md-icon>check</md-icon></a>
+    <a md-mini-fab routerLink="."><md-icon>check</md-icon></a>
+  </div>
+</div>
